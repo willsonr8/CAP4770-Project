@@ -18,7 +18,15 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-## 3. Start Jupyter Lab
+
+## 3. Register venv as Jupyter Kernel
+```bash
+python -m ipykernel install --user --name=myenv --display-name "Python (venv)"
+```
+
+## 4. Start Jupyter Lab
 ```bash
 jupyter lab
 ```
+
+## 5. Verify Python (venv) being used as Jupyter Lab kernel
