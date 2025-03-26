@@ -1,0 +1,8 @@
+jupyter-client
+jupyter-core
+pandas
+numpy
+scipy
+matplotlib
+scikit-learn
+pyspark
