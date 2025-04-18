@@ -8,3 +8,4 @@ scikit-learn
 pyspark
 ipykernel
 seaborn
+xgboost
