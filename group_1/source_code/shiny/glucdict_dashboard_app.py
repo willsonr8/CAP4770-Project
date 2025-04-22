@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load data
-synthetic_nhanes = pd.read_csv("synthetic_nhanes.csv")
-results_df = pd.read_csv("results_df.csv")
+synthetic_nhanes = pd.read_csv("../../Datasets/synthetic_nhanes.csv")
+results_df = pd.read_csv("../results_df.csv")
 
 # Filter to glucdict-derived columns only (excluding 'index')
 glucdict_prefixes = [ 'glucose', 'resting_hr', 'mean_hr', 'avg_daily_steps', 'hr_zone', 'avg_weekly', 'avg_daily', 'accelerometer', 'gyroscope', 'magnetic_field', 'gravity']
