@@ -7,4 +7,11 @@ matplotlib
 scikit-learn
 pyspark
 ipykernel
+xgboost
+shiny
+shinywidgets
+altair
+bokeh 
+plotly 
+ipyleaflet
 seaborn
