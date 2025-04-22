@@ -14,4 +14,3 @@ altair
 bokeh 
 plotly 
 ipyleaflet
-seaborn

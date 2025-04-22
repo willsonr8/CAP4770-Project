@@ -7,26 +7,12 @@ This guide walks you through creating a virtual environment, installing dependen
 ### On macOS/Linux:
 ```bash
 python -m venv venv
-```
-```bash
 source venv/bin/activate
 ```
 
-### On Windows: (with Powershell)
-```bash
+### On Windows: 
 python -m venv venv
-```
-```bash
-source venv\Scripts\activate
-```
-
-### On Windows: (with Bash)
-```bash
-python -m venv venv
-```
-```bash
-source venv/Scripts/activate
-```
+venv\Scripts\activate
 
 ## 2. Install Dependencies:
 ```bash
